@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    grid-area: content;
+    height: 100vh;
+    width: auto;
+    background-image: url("../../assets/images/tinifiedFLY/plane.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    flex-flow: row wrap;
+    justify-content: center;
+}
