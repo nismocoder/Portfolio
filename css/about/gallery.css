@@ -1,13 +1,28 @@
-.content {
+.hero {
     display: flex;
-    grid-area: content;
-    height: 100vh;
+    grid-area: hero;
+    height: 75vh;
     width: auto;
     background-image: url("../../assets/images/tinifiedFLY/plane.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+.windowSeat {
+    flex: 45%;
+    height: 300px;
+    width: 40%;
+    background-image: url("../../assets/images/laptop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
