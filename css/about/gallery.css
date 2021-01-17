@@ -13,14 +13,13 @@
 }
 
 .windowSeat {
-    flex: 45%;
+    flex: 40%;
     height: 300px;
-    width: 40%;
+    width: 35%;
     background-image: url("../../assets/images/laptop.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    justify-content: center;
     flex-wrap: wrap;
     flex-flow: column;
     padding-top: 100px;
