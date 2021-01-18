@@ -4,7 +4,7 @@
     grid-template-rows: auto;
     grid-template-areas: 
                          "nav-grid nav-grid"
-                         "contactContainer contactContainer";
+                         "content content";
   }
 
 *{
@@ -44,20 +44,27 @@ body {
     }
   
     nav a {
-        color: rgb(82, 80, 80);
+        color: rgb(255, 255, 255);
     }
 
-
+.content {
+    grid-area: content;
+    background-image: url("../../assets/images/contact.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 
 .contactContainer {
-    grid-area: contactContainer;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 90%;
     padding:0px;
+    top: 5%;
 }
 /* padding: 20px 100px  */
 
@@ -88,7 +95,7 @@ body {
 
 .left {
     height: 100%;
-    background: url("../../assets/images/pool.jpg");
+    background: url("../../assets/images/phoneEmail.png");
     background-size: cover;
 }
 
@@ -100,6 +107,7 @@ h2 {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    color:rgb(255, 255, 255);
 }
 
 h2:after {
@@ -112,7 +120,7 @@ h2:after {
     height: 4px;
     border-radius: 2px;
     z-index: -1;
-    background-color: #528a67;
+    background-color: #797979;
 }
 
 .field {
@@ -154,3 +162,9 @@ background-color: rgba(0, 0, 0, 0.1);
     background-color: #27ae60;
 }
 
+@media screen and (max-width:880px){
+    .contact-box{grid-template-columns: 1fr;
+    } .left{
+        height: 200px;
+    }
+}
