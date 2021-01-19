@@ -120,14 +120,14 @@ h2:after {
     height: 4px;
     border-radius: 2px;
     z-index: -1;
-    background-color: #797979;
+    background-color: #ac0c0c;
 }
 
 .field {
     width: 100%;
     padding: 0.5rem 1rem;
     outline: none;
-    border: 2px solid rgba (0, 0, 0, 0)
+    border: 2px solid rgba (0, 0, 0, 0);
     background-color: rgba(230, 230, 230, 0.6);
     font-size: 1.1rem;
     margin-bottom: 22px;
