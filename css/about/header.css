@@ -40,13 +40,13 @@
 .hero h2::before {
     content: '';
     position: absolute;
-    top: 5%;
+    top: 10%;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: cornsilk;
     opacity: 0.5;
-    width: 800px;
+    width: 850px;
     background-color: #ffff;
     border: 2px solid rgba (30, 85, 250, 0.47);
 }
