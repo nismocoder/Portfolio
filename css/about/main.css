@@ -18,6 +18,7 @@
 
 .nav-grid {
   grid-area: nav-grid;
+  background-color: rgba(196, 28, 28, 0.062);
 }
 
 .nav-container {
@@ -26,8 +27,9 @@
     height:30px;
     flex-direction: row;
     padding-top: 20px;
-    position: fixed;
+    position: static;
     z-index: 1000;
+    background-color: transparent;
 }
 
   nav {
@@ -38,6 +40,7 @@
       flex-direction: row;
       justify-content: space-evenly;
       font-weight: bold;
+      background-color: transparent;
   }
 
   nav a {

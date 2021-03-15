@@ -34,8 +34,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 96.3%;
+    /* height: 96.3%; */
+    height: 56.3%;
 }
+
 
 .hero h2::before {
     content: '';
@@ -44,7 +46,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     opacity: 0.5;
     width: 850px;
     background-color: #ffff;
