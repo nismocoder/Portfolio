@@ -6,7 +6,7 @@ tl.fromTo('.nav-container nav', {
     x: 0,
     opactiy: 1,
     delay: .3,
-    duration: 1
+    duration: 0.7
 }
 )
 .fromTo('.intro', {

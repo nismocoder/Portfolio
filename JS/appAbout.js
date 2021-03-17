@@ -1,12 +1,12 @@
 let tl = gsap.timeline()
-tl.fromTo('.nav-container nav', {
+tl.fromTo('.nav-grid ul', {
     x: -1300,
     opactity: 0,
 },{
     x: 0,
     opactiy: 1,
     delay: .3,
-    duration: 1
+    duration: 0.6
 }
 )
 .fromTo('h2', {
@@ -35,7 +35,7 @@ tl.fromTo('.nav-container nav', {
 },{
     opacity: 1,
     ease: "power2.inOut",
-    duration: 1.2, x: 1, ease: "steps(5)",
+    duration: 1, x: 1, ease: "steps(5)",
 }
 )
 
@@ -44,7 +44,7 @@ tl.fromTo('.nav-container nav', {
 },{
     opacity: 1,
     ease: "power2.inOut",
-    duration: 1, x: 1, ease: "steps(5)",
+    duration: 0.7, x: 1, ease: "steps(5)",
 }
 )
 
@@ -53,6 +53,6 @@ tl.fromTo('.nav-container nav', {
 },{
     opacity: 1,
     ease: "power2.inOut",
-    duration: 1, x: 1, ease: "steps(5)",
+    duration: 0.5, x: 1, ease: "steps(5)",
 }
 );
