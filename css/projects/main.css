@@ -242,12 +242,13 @@ body {
     padding: 16px 32px;
     margin-left: 4px;
     transition: ease-in-out 0.4s;
+    border-radius: 9px;
   }
   
   .enterButton a:link {
     color:white;
     background-color:transparent;
-    text-decoration: underline;
+    text-decoration: none;
     justify-content: center;
     text-align: center;
   }
@@ -260,7 +261,7 @@ body {
   .enterButton a:hover {
     transition: 0.6s ease-in-out;
     color: white;
-    background-color: #c06b51;
+    /* background-color: #c06b51; */
     transition: ease-in-out 0.4s;
   }
   /* .enterButton a:active {
@@ -270,5 +271,5 @@ body {
   } */
   
   .enterButton:hover {
-    background-color: rgb(0, 201, 201);
+    background-color: #c06b51;;
   }

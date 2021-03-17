@@ -63,7 +63,7 @@
 
 .nav-main ul li a:hover{
     cursor: pointer;
-    color: #fff;
-    background-color: rgb(165, 165, 165);
+    color: rgb(204, 0, 0);;
     transition: ease-in-out 0.4s;
+    font-size: 18px;
 }
